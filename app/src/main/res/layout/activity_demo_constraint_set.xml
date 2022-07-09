@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_transform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transform" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_propertySet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Property set" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_customAttribute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Attribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_motion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motion" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -30,4 +30,12 @@
     <color name="bgColor">#f2f2f2</color>
     <color name="bgColor_dark">#2d2d2d</color>
     <color name="blue_magic">#07274C</color>
+
+    <!-- sample 5 -->
+    <color name="brand_color">#5A8EBD</color>
+    <color name="divider_color">#F0F0F0</color>
+    <color name="grey">#9B9B9B</color>
+    <color name="lactic">#3B94D0</color>
+    <color name="black_blue">#202020</color>
+    <color name="light_grey">#83868B</color>
 </resources>

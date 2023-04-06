@@ -17,105 +17,65 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MotionLayout"
         tools:targetApi="31">
+        <activity android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene1Activity" />
+        <activity android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene2Activity" />
+        <activity android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene3Activity" />
+        <activity android:name=".sample1.verticalstackcards.VerticalStackCardsHomeActivity" />
+        <activity android:name=".sample1.verticalstackcards.VerticalStackCardsDemoActivity" />
+        <activity android:name=".sample1.verticalsnake.VerticalSnakeActivity" />
+        <activity android:name=".sample1.testbutton.TestButtonActivity" />
+        <activity android:name=".sample1.telegramheaderdemo.TelegramHeaderDemoActivity" />
+        <activity android:name=".sample1.storiesinstagram.InstagramStoryHomeActivity" />
+        <activity android:name=".sample1.storiesinstagram.InstagramStoryDemoActivity" />
+        <activity android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene1Activity" />
+        <activity android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene2Activity" />
+        <activity android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene3Activity" />
+        <activity android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene4Activity" />
+        <activity android:name=".sample1.starbucks.StarbucksDetailActivity" />
+        <activity android:name=".sample1.sensor.CardSensorActivity" />
+        <activity android:name=".sample1.sampleskeycycle.KeyCycleSampleActivity" />
+        <activity android:name=".sample1.rotationcard.scenes.RotationCardScene1Activity" />
+        <activity android:name=".sample1.rotationcard.RotationCardHomeActivity" />
+        <activity android:name=".sample1.rotationcard.RotationCardDemoActivity" />
+        <activity android:name=".sample1.pivotrotation.FoodCircleTabsActivity" />
+        <activity android:name=".sample1.pillcards.PillCardsActivity" />
+        <activity android:name=".sample1.modopay.ModoPaymentActivity" />
+        <activity android:name=".sample1.menuselection.MenuSelectionCarouselActivity" />
+        <activity android:name=".sample1.horizontalcarousel.HorizontalCarouselActivity" />
+        <activity android:name=".sample1.flow.FlowDemoActivity" />
+        <activity android:name=".sample1.examplekeyposition.KeyPositionDeltaActivity" />
+        <activity android:name=".sample1.examplekeyposition.KeyPositionParentActivity" />
+        <activity android:name=".sample1.examplekeyposition.KeyPositionPathActivity" />
+        <activity android:name=".sample1.examplekeyposition.PositionKeyExampleActivity" />
+        <activity android:name=".sample1.democonstraintset.CustomAttributeDemoActivity" />
+        <activity android:name=".sample1.democonstraintset.DemoConstraintSetActivity" />
+        <activity android:name=".sample1.democonstraintset.LayoutDemoActivity" />
+        <activity android:name=".sample1.democonstraintset.MotionDemoActivity" />
+        <activity android:name=".sample1.democonstraintset.PropertySetDemoActivity" />
+        <activity android:name=".sample1.democonstraintset.TransformDemoActivity" />
+        <activity android:name=".sample1.carouselhelper.CarouselHelperActivity" />
+        <activity android:name=".sample1.circularcards.scenes.CircularCardsScene5Activity" />
+        <activity android:name=".sample1.circularcards.scenes.CircularCardsScene4Activity" />
+        <activity android:name=".sample1.circularcards.scenes.CircularCardsScene3Activity" />
+        <activity android:name=".sample1.circularcards.scenes.CircularCardsScene2Activity" />
+        <activity android:name=".sample1.circularcards.scenes.CircularCardsScene1Activity" />
+        <activity android:name=".sample1.circularcards.CircularCardsDemoActivity" />
+        <activity android:name=".sample1.circularcards.CircularCardsHomeActivity" />
         <activity
-            android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene1Activity" />
+            android:name=".sample5.Sample5Activity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
         <activity
-            android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene2Activity" />
-        <activity
-            android:name=".sample1.verticalstackcards.scenes.VerticalStackCardsScene3Activity" />
-        <activity
-            android:name=".sample1.verticalstackcards.VerticalStackCardsHomeActivity" />
-        <activity
-            android:name=".sample1.verticalstackcards.VerticalStackCardsDemoActivity" />
-        <activity
-            android:name=".sample1.verticalsnake.VerticalSnakeActivity" />
-        <activity
-            android:name=".sample1.testbutton.TestButtonActivity" />
-        <activity
-            android:name=".sample1.telegramheaderdemo.TelegramHeaderDemoActivity" />
-        <activity
-            android:name=".sample1.storiesinstagram.InstagramStoryHomeActivity" />
-        <activity
-            android:name=".sample1.storiesinstagram.InstagramStoryDemoActivity" />
-        <activity
-            android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene1Activity" />
-        <activity
-            android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene2Activity" />
-        <activity
-            android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene3Activity" />
-        <activity
-            android:name=".sample1.storiesinstagram.scenes.InstagramStoryScene4Activity" />
-        <activity
-            android:name=".sample1.starbucks.StarbucksDetailActivity" />
-        <activity
-            android:name=".sample1.sensor.CardSensorActivity" />
-        <activity
-            android:name=".sample1.sampleskeycycle.KeyCycleSampleActivity" />
-        <activity
-            android:name=".sample1.rotationcard.scenes.RotationCardScene1Activity" />
-        <activity
-            android:name=".sample1.rotationcard.RotationCardHomeActivity" />
-        <activity
-            android:name=".sample1.rotationcard.RotationCardDemoActivity" />
-        <activity
-            android:name=".sample1.pivotrotation.FoodCircleTabsActivity" />
-        <activity
-            android:name=".sample1.pillcards.PillCardsActivity" />
-        <activity
-            android:name=".sample1.modopay.ModoPaymentActivity" />
-        <activity
-            android:name=".sample1.menuselection.MenuSelectionCarouselActivity" />
-        <activity
-            android:name=".sample1.horizontalcarousel.HorizontalCarouselActivity" />
-        <activity
-            android:name=".sample1.flow.FlowDemoActivity" />
-        <activity
-            android:name=".sample1.examplekeyposition.KeyPositionDeltaActivity" />
-        <activity
-            android:name=".sample1.examplekeyposition.KeyPositionParentActivity" />
-        <activity
-            android:name=".sample1.examplekeyposition.KeyPositionPathActivity" />
-        <activity
-            android:name=".sample1.examplekeyposition.PositionKeyExampleActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.CustomAttributeDemoActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.DemoConstraintSetActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.LayoutDemoActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.MotionDemoActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.PropertySetDemoActivity" />
-        <activity
-            android:name=".sample1.democonstraintset.TransformDemoActivity" />
-        <activity
-            android:name=".sample1.carouselhelper.CarouselHelperActivity" />
-        <activity
-            android:name=".sample1.circularcards.scenes.CircularCardsScene5Activity" />
-        <activity
-            android:name=".sample1.circularcards.scenes.CircularCardsScene4Activity" />
-        <activity
-            android:name=".sample1.circularcards.scenes.CircularCardsScene3Activity" />
-        <activity
-            android:name=".sample1.circularcards.scenes.CircularCardsScene2Activity" />
-        <activity
-            android:name=".sample1.circularcards.scenes.CircularCardsScene1Activity" />
-        <activity
-            android:name=".sample1.circularcards.CircularCardsDemoActivity" />
-        <activity
-            android:name=".sample1.circularcards.CircularCardsHomeActivity" />
-        <activity
-            android:name=".sample4.Sample6Activity"
+            android:name=".sample4.Sample4Activity"
             android:exported="false" />
         <activity
-            android:name=".sample3.Sample5Activity"
+            android:name=".sample3.Sample3Activity"
             android:exported="false" />
         <activity
             android:name=".sample1.Sample1Activity"
             android:exported="false" />
         <activity
-            android:name=".sample2.Sample3Activity"
+            android:name=".sample2.Sample2Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

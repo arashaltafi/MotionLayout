@@ -34,4 +34,10 @@
         android:layout_height="wrap_content"
         android:text="sample 4" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSample5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sample 5" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

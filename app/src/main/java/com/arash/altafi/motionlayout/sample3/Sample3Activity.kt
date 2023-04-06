@@ -2,15 +2,15 @@ package com.arash.altafi.motionlayout.sample3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.arash.altafi.motionlayout.databinding.ActivitySample5Binding
+import com.arash.altafi.motionlayout.databinding.ActivitySample3Binding
 
-class Sample5Activity : AppCompatActivity() {
+class Sample3Activity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySample5Binding
+    private lateinit var binding: ActivitySample3Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySample5Binding.inflate(layoutInflater)
+        binding = ActivitySample3Binding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }

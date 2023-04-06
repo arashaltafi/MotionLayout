@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="category_text_style">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_size_15sp</item>
+    </style>
+
+    <style name="black_text_style">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black_blue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="grey_text_style">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="RoundedShapeAppearance" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedShapeAppearanceSmall" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="RectangularShapeAppearance">
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="image_category_style">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#83868B</item>
+        <item name="colorPrimaryDark">@color/purple_200</item>
+        <item name="colorAccent">#51AEE7</item>
+    </style>
+
+</resources>

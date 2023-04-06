@@ -4,15 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.constraintlayout.motion.widget.MotionLayout
 import com.arash.altafi.motionlayout.R
-import com.arash.altafi.motionlayout.databinding.ActivitySample6Binding
+import com.arash.altafi.motionlayout.databinding.ActivitySample4Binding
 
-class Sample6Activity : AppCompatActivity() {
+class Sample4Activity : AppCompatActivity() {
 
-    private lateinit var binding: ActivitySample6Binding
+    private lateinit var binding: ActivitySample4Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivitySample6Binding.inflate(layoutInflater)
+        binding = ActivitySample4Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
         init()
